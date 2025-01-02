@@ -93,8 +93,8 @@ a {
 }
 
 .element-navigateur:hover{
-    color: #0065FC;
-    border-top: 2px solid #0065FC;
+    color: var(--main-color);
+    border-top: 2px solid var(--main-color);
     cursor: pointer;
 }
 
@@ -106,7 +106,7 @@ a {
 }
 
 .formulaire-recherche-form-location {
-    background-color: #F2F2F2;
+    background-color: var(--main-bg-color);
     border: none;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -124,8 +124,8 @@ a {
 
 .formulaire-recherche-form-input {
     padding: 10px;
-    border-top: 1px solid #F2F2F2;
-    border-bottom: 1px solid #F2F2F2;
+    border-top: 1px solid var(--main-bg-color);
+    border-bottom: 1px solid var(--main-bg-color);
     border-left: none;
     border-right: none;
     font-size: 16px;
@@ -134,7 +134,7 @@ a {
 }
 
 .formulaire-recherche-form-rechercher {
-    background-color: #0065FC;
+    background-color: var(--main-color);
     border: none;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -182,7 +182,7 @@ a {
     font-size: 16px;
     font-weight: bold;
     background-color: white;
-    border: 3px solid #F2F2F2;
+    border: 3px solid var(--main-bg-color);
     border-radius: 30px;
     cursor: pointer;
     display: flex;
@@ -196,7 +196,7 @@ a {
 }
 
 .formulaire-recherche-filtres-bouton:hover {
-    background-color: #c9dfff;
+    background-color: var(--filter-bg-color);
 }
 
 .formulaire-recherche-info {
@@ -238,10 +238,7 @@ a {
 .hebergements-card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-}
-
-.hebergements-card .card {
-    margin: 15px;
+    gap: 30px;
 }
 
 .hebergements-card img {
@@ -344,7 +341,7 @@ a {
 
 footer {
     margin-top: 75px;
-    background-color: #F2F2F2;
+    background-color: var(--main-bg-color);
     padding: 30px;
     padding-right: 25%;
     display: flex;
@@ -445,13 +442,13 @@ footer li {
         margin: 0;
         padding-bottom: 20px;
         text-align: center;
-        border-bottom: 2px solid #F2F2F2;
+        border-bottom: 2px solid var(--main-bg-color);
     }
     
     .element-navigateur:hover{
         color: #0065FC;
         border-top: none;
-        border-bottom: 2px solid #0065FC;
+        border-bottom: 2px solid var(--main-color);
         cursor: pointer;
     }
 
@@ -474,20 +471,9 @@ footer li {
         width: 11px;
         height: 16px;
     }
-    
-    .formulaire-recherche-form-input {
-        padding: 10px;
-        border-top: 1px solid #F2F2F2;
-        border-bottom: 1px solid #F2F2F2;
-        border-left: none;
-        border-right: none;
-        font-size: 16px;
-        text-align: center;
-        font-weight: bold;
-    }
 
     .formulaire-recherche-form-loupe {
-        background-color: #0065FC;
+        background-color: var(--main-color);
         border: none;
         border-radius: 10px;
         cursor: pointer;
@@ -497,8 +483,8 @@ footer li {
     }
     
     .formulaire-recherche-form-loupe-img {
-        width: 11px;
-        height: 11px;
+        width: 14px;
+        height: 14px;
     }
 
     .formulaire-recherche-form-rechercher {
@@ -580,6 +566,11 @@ footer li {
     .hebergements-card {
         display: flex;
         flex-direction: column;
+        gap: 0;
+    }
+
+    .hebergements-card .card {
+        margin: 15px;
     }
 
     /****** Activités ******/
