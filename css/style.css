@@ -461,6 +461,10 @@ footer li {
         margin-top: 30px;
     }
     
+    .formulaire-recherche-form-input {
+        padding: 0;
+    }
+
     .formulaire-recherche-form-location {
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
