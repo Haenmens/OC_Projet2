@@ -71,8 +71,8 @@ a {
 }
 
 .logo {
-    width: 64px;
-    height: 20px;
+    width: 61px;
+    height: 19px;
     align-self: center;
 }
 
@@ -90,6 +90,7 @@ a {
     align-self: flex-start;
     margin-left: 50px;
     padding-top: 20px;
+    font-size: 16px;
 }
 
 .element-navigateur:hover{
@@ -102,14 +103,14 @@ a {
 .formulaire-recherche-form {
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .formulaire-recherche-form-location {
     background-color: var(--main-bg-color);
     border: none;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     cursor: pointer;
@@ -117,36 +118,34 @@ a {
 }
 
 .formulaire-recherche-form-location-img {
-    padding: 15px;
-    width: 17px;
-    height: 23px;
+    padding: 16px 18px 16px 18px;
+    width: 14px;
+    height: 18px;
 }
 
 .formulaire-recherche-form-input {
-    padding: 10px;
     border-top: 1px solid var(--main-bg-color);
     border-bottom: 1px solid var(--main-bg-color);
     border-left: none;
     border-right: none;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .formulaire-recherche-form-rechercher {
     background-color: var(--main-color);
     border: none;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     cursor: pointer;
     display: inline-block;
     color: white;
-    font-weight: bold;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 16px 15px 16px;
 }
 
 .formulaire-recherche-form-loupe {
@@ -156,7 +155,8 @@ a {
 .formulaire-recherche-filtres {
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
+    margin-top: 20px;
+    gap: 15px;
 }
 
 .formulaire-recherche-filtres-liste {
@@ -165,25 +165,24 @@ a {
     font-weight: bold;
     display: flex;
     flex-direction: row;
+    gap: 15px;
     padding-left: 0;
 }
 
 .formulaire-recherche-filtres-titre {
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    align-self: center;
 }
 
 .formulaire-recherche-filtres-bouton {
-    margin-left: 15px;
-    padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 16px;
-    font-weight: bold;
+    height: 50px;
+    padding: 4px 19px 4px 19px;
+    font-size: 17px;
+    font-weight: 700;
     background-color: white;
-    border: 3px solid var(--main-bg-color);
-    border-radius: 30px;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 25px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -220,7 +219,7 @@ a {
 
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 30px;
     box-sizing: border-box;
 }
@@ -231,8 +230,7 @@ a {
 }
 
 .hebergements .section-title {
-    padding-left: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
 }
 
 .hebergements-card {
@@ -255,9 +253,9 @@ a {
 
 .hebergements-afficher-plus {
     margin-top: 30px;
-    margin-left: 15px;
-    font-weight: bold;
-    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 /****** Populaires ***********/
