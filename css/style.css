@@ -255,6 +255,10 @@ header #navigateur {
     gap: 8px;
 }
 
+#hebergements .card-rating {
+    justify-self: flex-end;
+}
+
 /****** Populaires ***********/
 #populaires {
     background-color: var(--main-bg-color);
