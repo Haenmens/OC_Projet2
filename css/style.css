@@ -113,6 +113,7 @@ a {
     border-bottom-left-radius: 15px;
     background-color: var(--main-bg-color);
     border: 1px solid var(--main-bg-color);
+    cursor: pointer;
 }
 
 .formulaire-recherche-form-location-img {
@@ -139,6 +140,7 @@ a {
     font-size: 18px;
     font-weight: 700;
     padding: 15px 16px 15px 16px;
+    cursor: pointer;
 }
 
 .formulaire-recherche-form-loupe {
@@ -327,6 +329,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    margin-bottom: 30px;
 }
 
 .activites-cards {
@@ -503,6 +506,7 @@ footer {
         display: block;
         border: none;
         padding: 15px 16px;
+        cursor: pointer;
     }
 
     .formulaire-recherche-form-loupe-img {
