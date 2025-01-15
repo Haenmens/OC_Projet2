@@ -46,12 +46,40 @@
     margin: 0;
 }
 
+.mgn-b0 {
+    margin-bottom: 0;
+}
+
 .pdn-0 {
     padding: 0;
 }
 
+.g8 {
+    gap: 8px;
+}
+
+.g10 {
+    gap: 10px;
+}
+
+.g15 {
+    gap: 15px;
+}
+
 .g30 {
     gap: 30px;
+}
+
+.g35 {
+    gap: 35px;
+}
+
+.g40 {
+    gap: 40px;
+}
+
+.curs-p {
+    cursor: pointer;
 }
 
 .algni-ctr {
@@ -60,6 +88,10 @@
 
 .h100 {
     height: 100%;
+}
+
+.w100 {
+    width: 100%;
 }
 
 body {
@@ -97,12 +129,26 @@ a {
     font-weight: 700;
 }
 
+.nav-txt {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.filtre-txt {
+    font-size: 17px;
+    font-weight: 700;
+}
+
 .euro {
     font-weight: 700;
 }
 
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+.bg-mc {
+    background-color: var(--main-bg-color);
 }
 
 /****** Header *****/
@@ -119,8 +165,6 @@ header #navigateur {
 
 .elmnt-nav {
     padding-top: 16px;
-    font-size: 16px;
-    font-weight: 400;
 }
 
 .elmnt-nav:hover {
@@ -129,16 +173,10 @@ header #navigateur {
 }
 
 /****** Formulaire ******/
-#formulaire-recherche {
-    gap: 35px;
-}
-
 #location {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    background-color: var(--main-bg-color);
     border: 1px solid var(--main-bg-color);
-    cursor: pointer;
 }
 
 #location img {
@@ -161,7 +199,6 @@ header #navigateur {
     color: white;
     border: none;
     padding: 15px 16px 15px 16px;
-    cursor: pointer;
 }
 
 #loupe {
@@ -169,22 +206,9 @@ header #navigateur {
 }
 
 /****** Filtres ******/
-#filtres {
-    gap: 15px;
-    font-size: 17px;
-    font-weight: 700;
-}
-
-#filtres #boutons {
-    gap: 15px;
-}
 
 .bouton {
-    align-items: center;
-    gap: 10px;
     padding: 4px 19px 4px 19px;
-    font-size: 17px;
-    font-weight: 700;
     border-radius: 25px;
     border: 2px solid #D9D9D9;
     background-color: white;
@@ -192,7 +216,6 @@ header #navigateur {
 
 .bouton:hover {
     background-color: var(--filter-bg-color);
-    cursor: pointer;
 }
 
 .bouton img {
@@ -201,15 +224,6 @@ header #navigateur {
 }
 
 /****** Infos ******/
-#info {
-    gap: 10px;
-    align-items: center;
-    font-size: 16px;
-    font-weight: 400;
-    margin: 0;
-    padding: 0;
-}
-
 #info img {
     width: 24px;
     height: 24px;
@@ -224,19 +238,14 @@ header #navigateur {
 
 /****** Hebergements ***********/
 #hebergements {
-    background-color: var(--main-bg-color);
     width: 65%;
-    gap: 40px;
 }
 
 #hebergements .card {
-    gap: 8px;
-    padding-bottom: 7px;
     width: calc(33% - 30px);
 }
 
 #hebergements .card img {
-    width: 100%;
     height: 10vh;
     object-fit: cover;
     border-top-left-radius: 20px;
@@ -251,17 +260,12 @@ header #navigateur {
     margin-top: 8px;
 }
 
-#hebergements .card-content, .card-txt {
-    gap: 8px;
-}
-
 #hebergements .card-rating {
     justify-self: flex-end;
 }
 
 /****** Populaires ***********/
 #populaires {
-    background-color: var(--main-bg-color);
     width: 32%;
 }
 
@@ -304,7 +308,6 @@ header #navigateur {
 }
 
 #activites .card img {
-    width: 100%;
     height: 40vh;
     object-fit: cover;
     border-top-right-radius: 20px;
@@ -321,15 +324,8 @@ header #navigateur {
 }
 
 /****** Footer ******/
-footer nav {
-    background-color: var(--main-bg-color);
-    display: flex;
-    flex-direction: row;
-}
-
 .div-footer {
     width: 33%;
-    gap: 15px;
     padding: 20px;
 }
 
