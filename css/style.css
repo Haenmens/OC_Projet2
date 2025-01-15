@@ -509,10 +509,12 @@ header #navigateur {
 
     /****** Footer ******/
     footer nav {
-        flex-direction: column;
+        flex-direction: column !important;
     }
 
-    .div-footer {width: 100%;}
+    .div-footer {
+        width: 100%;
+    }
 }
 
 @media (max-width: 460px) {
