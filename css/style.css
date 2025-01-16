@@ -242,7 +242,7 @@ header #navigateur {
 }
 
 #hebergements .card {
-    width: calc(33% - 30px);
+    width: calc((100% - 2 * 15px - 2 * 30px) / 3);
 }
 
 #hebergements .card img {
@@ -304,7 +304,7 @@ header #navigateur {
 
 #activites .card {
     padding: 0;
-    width: calc(25% - 30px);
+    width: calc((100% - 2 * 30px - 2 * 15px) / 4);
 }
 
 #activites .card img {
