@@ -246,7 +246,8 @@ header #navigateur {
 }
 
 #hebergements .card img {
-    height: 10vh;
+    height: auto;
+    aspect-ratio: 16/9;
     object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -308,7 +309,8 @@ header #navigateur {
 }
 
 #activites .card img {
-    height: 40vh;
+    height: auto;
+    aspect-ratio: 4/6;
     object-fit: cover;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -378,7 +380,7 @@ header #navigateur {
 
     /****** Activités ******/
     #activites .card img {
-        height: 20vh;
+        aspect-ratio: 0.95;
     }
 }
 
@@ -495,7 +497,7 @@ header #navigateur {
     }
 
     #hebergements .card img {
-        height: 20vh;
+        aspect-ratio: 16/6;
     }
 
     /****** Activités ******/
@@ -507,6 +509,10 @@ header #navigateur {
         width: 100%;
     }
 
+    #activites .card img {
+        aspect-ratio: 16/9;
+    }
+
     /****** Footer ******/
     footer nav {
         flex-direction: column !important;
@@ -514,16 +520,6 @@ header #navigateur {
 
     .div-footer {
         width: 100%;
-    }
-}
-
-@media (max-width: 460px) {
-    #activites .card img {
-        height: 15vh;
-    }
-
-    #hebergements .card img {
-        height: 10vh;
     }
 }
 
