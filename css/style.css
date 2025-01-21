@@ -519,7 +519,7 @@ header #navigateur {
     }
 
     .div-footer {
-        width: 100%;
+        width: calc(100% - 20px * 2);
     }
 }
 
