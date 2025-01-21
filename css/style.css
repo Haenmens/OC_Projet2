@@ -433,6 +433,7 @@ header #navigateur {
     }
 
     #input {
+        width: 100%;
         padding: 0;
     }
 
@@ -455,12 +456,15 @@ header #navigateur {
     }
 
     /*** Filtres ***/
+
     #boutons {
         flex-wrap: wrap;
+        width: 100%;
     }
 
     .bouton {
         font-size: 14px;
+        flex: 1 1 auto;
     }
 
     /****** Hébergements and Populaires ******/
@@ -520,24 +524,5 @@ header #navigateur {
 
     .div-footer {
         width: calc(100% - 20px * 2);
-    }
-}
-
-@media (max-width: 350px) {
-    /****** Formulaire ******/
-    #input {
-        width: 100%;
-    }
-
-    /*** Filtres ***/
-    .bouton {
-        width: calc(50% - 15px);
-        padding: 8px;
-        font-size: 12px;
-    }
-
-    .bouton img {
-        width: 16px;
-        height: 16px;
     }
 }
