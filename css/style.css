@@ -371,11 +371,11 @@ header #navigateur {
     }
 
     #populaires a {
-        width: calc(33.33% - 15px);
+        width: calc(100% / 3);
     }
 
     #populaires .card {
-        width: 100%;
+        width: calc(100% - 2 * 5px);
     }
 
     /****** Activités ******/
